@@ -1,3 +1,6 @@
+//T.C : O(m*n) - Total number of characters in all string
+//S.C : O(1)
+//----------------------------C++---------------------//
 class Solution {
 public:
     int numberOfBeams(vector<string>& bank) {
