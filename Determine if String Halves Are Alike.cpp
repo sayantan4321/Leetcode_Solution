@@ -1,3 +1,5 @@
+
+// Optimal
 class Solution {
 public:
     bool vowel(char c){
@@ -5,12 +7,6 @@ public:
         return (c=='a'||c=='e'||c=='i'||c=='o'||c=='u');
     }
     bool halvesAreAlike(string s) {
-        // int x=0,n=s.size();
-        // for(int i=0;i<n/2;i++){
-        //     if(vowel(s[i])) x++;
-        //     if(vowel(s[n-i-1])) x--;
-        // }
-        // return x==0;
 
         int n= s.length();
         int i=0, j=n/2;
