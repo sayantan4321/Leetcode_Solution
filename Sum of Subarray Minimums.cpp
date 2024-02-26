@@ -1,3 +1,30 @@
+------------------------ Brute Force Approach------------------------
+
+class Solution {
+public:
+    int M = 1e9 + 7;
+    int sumSubarrayMins(vector<int>& arr) {
+       int n = arr.size();
+        long result = 0;
+
+        for (int i = 0; i < n; i++) {
+            int minVal = arr[i];
+
+            for (int j = i; j < n; j++) {
+                minVal = min(minVal, arr[j]);
+                result = (result + minVal) % M;
+            }
+        }
+
+        return result; 
+    }
+};
+
+---------------------> T.C. = O(N^2)
+---------------------> S.C. = O(1)    
+
+----------------------------Optimal Approach------------------------------
+    
 typedef unsigned long long ll;
 class Solution {
 public:
