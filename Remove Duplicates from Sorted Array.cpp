@@ -1,4 +1,4 @@
-Approach
+-------------Approach - 1--------------------
 We can use two pointer technique to retrive the unique elements of the array.
 
 Suppose Array name is arr[].
@@ -25,5 +25,29 @@ public:
             }
         }
         return i+1;
+    }
+};
+
+
+------------------Approach - 2 ---------------------
+
+Using Set:
+
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        set<int, greater<int>> ans;
+        
+        for(int i=0;i<nums.size();i++){
+            ans.insert(nums[i]);
+        }
+
+        for(auto i : ans){
+            nums.insert(nums.begin(),i);
+        }
+
+        return ans.size();
+    
     }
 };
