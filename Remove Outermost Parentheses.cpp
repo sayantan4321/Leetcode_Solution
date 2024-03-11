@@ -9,7 +9,7 @@ public:
         for(int i=0; i<s.length(); i++){
             if(s[i]=='('){
                 if(count>0){
-                    ans +='(';
+                    ans +='('; 
                 }
                 count++;
             }
