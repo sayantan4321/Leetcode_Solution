@@ -1,5 +1,7 @@
 //Approach-1 (Brute Force) - TC : O(n)
 
+Traverse through every element.
+
 //Approach-2 (Using Own Binary Search) - TC : O(log(n))
 class Solution {
 public:
