@@ -47,6 +47,12 @@ public:
                 while(i<n && (nums[i]==0 || windowSum > goal)) {
                         if(nums[i]==0) cntZero++;
                         else cntZero =0;
-                        windowSum
+                        
+                        windowSum -= nums[i];
+                        i++;
+                }
+                if(windowSum == goal) result += 1 + cntZero;
+        }
+        return result;    
     }
 };
