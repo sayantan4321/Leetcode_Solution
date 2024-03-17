@@ -34,3 +34,19 @@ public:
 };
 ----------- Approach -3 ----------
 // Sliding Window
+class Solution {
+public:
+    int numSubarraysWithSum(vector<int>& nums, int k) {
+        int  n = nums.size();
+        int i=0, j=0;
+        int windowSum = 0, result = 0;
+
+        while(j < n){
+                windowSum += nums[j];
+                int cntZero = 0;
+                while(i<n && (nums[i]==0 || windowSum > goal)) {
+                        if(nums[i]==0) cntZero++;
+                        else cntZero =0;
+                        windowSum
+    }
+};
