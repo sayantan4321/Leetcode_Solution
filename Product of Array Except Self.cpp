@@ -1,3 +1,5 @@
+----------- Approach - 1 --------
+// With division method(handeling O's)
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
@@ -22,25 +24,54 @@ public:
             }
         }
         return ans;
-        // int n = nums.size();
-        // vector<int> left(n);
-        // vector<int> right(n);
-        // left[0] = 1;
-        // right[n-1] = 1;
+
+---------- Approach -2 --------
+//(better Approach) -> using two extra space
+
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> left(n);
+        vector<int> right(n);
+        left[0] = 1;
+        right[n-1] = 1;
         
-        // for(int i = 1; i<nums.size(); i++) {
-        //     left[i] = left[i-1]*nums[i-1];
-        // }
+        for(int i = 1; i<nums.size(); i++) {
+            left[i] = left[i-1]*nums[i-1];
+        }
         
-        // for(int i = n-2; i>=0; i--) {
-        //     right[i] = right[i+1]*nums[i+1];
-        // }
+        for(int i = n-2; i>=0; i--) {
+            right[i] = right[i+1]*nums[i+1];
+        }
         
-        // vector<int> result(n);
-        // for(int i = 0; i<n; i++) {
-        //     result[i] = left[i]*right[i];
-        // }
+        vector<int> result(n);
+        for(int i = 0; i<n; i++) {
+            result[i] = left[i]*right[i];
+        }
         
-        // return result;
+        return result;
+    }
+};
+------------ Approach - 3 ----------
+// using Constant Space
+class Solution {
+public:
+    vector<int> productExceptSelf(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> result(n);
+        result[0] = 1;
+        
+        for(int i = 1; i<nums.size(); i++) {
+            result[i] = result[i-1]*nums[i-1];
+        }
+        
+        int right = 1;
+        for(int i = n-1; i>=0; i--) {
+            result[i] = result[i]*right;
+            right *= nums[i];
+        }
+        
+        return result;
     }
 };
