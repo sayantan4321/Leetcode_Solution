@@ -1,3 +1,6 @@
+// Optimal Approach
+
+// -> Sort the array and compare each end part with next one's start
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& arr) {
