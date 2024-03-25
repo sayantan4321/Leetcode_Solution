@@ -1,3 +1,8 @@
+----------- Approach - 1 -----------
+// Using Map
+  T.C. ->  O(N) 
+  S.C. -> O(N)
+
 -------- Approach - 3 --------
   T.C. -> O(N) 
   S.C. -> O(1)
