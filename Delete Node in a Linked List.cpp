@@ -1,3 +1,5 @@
+------------ Appraoch -1 --------------
+  //  starting from the mentioned node and skip the node->next to node->next->next
 /**
  * Definition for singly-linked list.
  * struct ListNode {
