@@ -1,3 +1,5 @@
+--------------Approach -1 ---------------
+// simple using map to track count and sliding window.
 class Solution {
 public:
     int maxSubarrayLength(vector<int>& nums, int k) {
