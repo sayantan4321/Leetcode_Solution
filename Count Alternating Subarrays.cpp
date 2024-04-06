@@ -18,7 +18,7 @@ public:
 };
 
 ---------- Approach ->2 -----------
-//Optimal 
+//Optimal : Count Subaraay's using the length.
 class Solution {
 public:
     long long countAlternatingSubarrays(vector<int>& nums) {
