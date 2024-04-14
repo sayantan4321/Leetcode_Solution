@@ -1,5 +1,7 @@
 --------- APPROACH - 1 ---------
     // BRUTE FORCE
+TC -> O(2N)
+SC -> O(N)
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
@@ -31,6 +33,8 @@ public:
 };
 --------- APPROACH - 2 ------------
     // OPTIMAL
+TC -> O(N)
+SC -> O(1)
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
