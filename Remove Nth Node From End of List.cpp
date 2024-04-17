@@ -8,6 +8,8 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+---------- APPROACH - 1 ------------
+    // BRUTE
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
@@ -32,3 +34,27 @@ public:
        return head;
     }
 };
+
+----------- APPROACH - 2 -----------
+    // OPTIMAL
+
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int K) {
+        ListNode* fast = head;
+        ListNode* slow = head;
+        for(int i=0; i<K;  i++){
+            fast = fast->next;
+        }
+        if(fast == NULL) return head->next;
+        
+        while(fast->next != NULL) { // after k position fast will start
+            slow = slow->next;
+            fast = fast->next;
+        }
+        ListNode* delNode = slow->next;
+        slow->next = slow->next->next;
+        delete(delNode);
+    
+        return head;
+    } 
