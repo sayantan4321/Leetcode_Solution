@@ -9,7 +9,9 @@
  * };
  */
 ---------- APPROACH - 1 ------------
-    // BRUTE
+    // BRUTE 
+ TC -> O(Len) + O(len-n)
+ SC -> 0(1)   
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
@@ -37,7 +39,8 @@ public:
 
 ----------- APPROACH - 2 -----------
     // OPTIMAL
-
+TC -> O(Len/2) + O(len/2) -> O(N)
+SC -> 0(1)  
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int K) {
