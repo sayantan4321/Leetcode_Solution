@@ -77,7 +77,6 @@ public:
         }
         int firstPrime = -1;
         int lastPrime = -1;
-        
         // Iterate through the array to find the indices of the first and last prime numbers
         for (int i = 0; i < nums.size(); i++) {
             if (prime[nums[i]]) {
