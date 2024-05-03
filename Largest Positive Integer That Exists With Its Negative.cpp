@@ -1,6 +1,23 @@
 class Solution {
 public:
     int findMaxK(vector<int>& nums) {
+        int result = -1;
+        for(int i=0; i<nums.size(); i++){
+            int opposite = -(nums[i]);
+            for(int j=0; j<nums.size(); j++){
+                if(nums[j] == opposite){
+                    result = max(result, nums[i]);
+                }
+            }
+        }
+        return result;
+    }
+};
+
+------------ Approach -2 --------
+class Solution {
+public:
+    int findMaxK(vector<int>& nums) {
         // int res = -1;
         // unordered_map<int, int> mpp;
 
