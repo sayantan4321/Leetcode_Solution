@@ -11,6 +11,7 @@
 class Solution {
 public:
     void deleteNode(ListNode* node) {
+      //change the current node's value to next node's value
        node->val = node->next->val;
        node->next = node->next->next;
     }
