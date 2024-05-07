@@ -27,3 +27,35 @@ public:
         return head;
     }
 };
+----------- Approach - 2 ----------
+class Solution {
+public:
+    ListNode* removeNodes(ListNode* head) {
+       stack<ListNode*> st;
+       ListNode* temp = head;
+
+       while(temp != NULL){
+        st.push(temp);
+        temp = temp->next;
+       }
+       temp = st.top();
+       st.pop();
+       int maxNode = temp->val;
+
+       ListNode* newHead = new ListNode(maxNode);
+       while(!st.empty()){
+         temp = st.top();
+         st.pop();
+         if(temp->val < maxNode){
+            continue;
+         }
+         else{
+            ListNode* newNode = new ListNode(temp->val);
+            newNode->next = newHead;
+            newHead = newNode;
+            maxNode = temp->val;
+         }
+       }
+       return newHead;
+    }
+};
