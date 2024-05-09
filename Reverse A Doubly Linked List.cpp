@@ -1,3 +1,9 @@
+-------- Approach -1 -----------
+    USING STACK 
+
+--------- Approach -2 ----------
+T.C. - O(N)
+    
 class Node
 {
 public:
