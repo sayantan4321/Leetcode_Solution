@@ -1,3 +1,6 @@
+------------ Approach - 1 --------------
+// T.C. -> O(N)
+// S.C. -> O(1)    
 class Solution {
 public:
     long long maximumHappinessSum(vector<int>& happiness, int k) {
@@ -13,6 +16,9 @@ public:
     }
 };
 
+------------ Approach - 2 --------------
+// T.C. -> O(N)
+// S.C. -> O(N)    
 class Solution {
 public:
     long long maximumHappinessSum(vector<int>& happiness, int k) {
