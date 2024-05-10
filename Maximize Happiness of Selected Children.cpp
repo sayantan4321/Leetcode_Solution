@@ -1,7 +1,7 @@
 ------------ Approach - 1 --------------
 // T.C. -> O(N)
 // S.C. -> O(1)    
-class Solution {
+class Solution {  // Sorting and using count
 public:
     long long maximumHappinessSum(vector<int>& happiness, int k) {
         sort(begin(happiness), end(happiness), greater<int>());
@@ -19,7 +19,7 @@ public:
 ------------ Approach - 2 --------------
 // T.C. -> O(N)
 // S.C. -> O(N)    
-class Solution {
+class Solution {   // using Max Heap
 public:
     long long maximumHappinessSum(vector<int>& happiness, int k) {
         long long res =0;
