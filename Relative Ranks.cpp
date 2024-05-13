@@ -1,3 +1,5 @@
+T.C. - O(N)
+S.C. - O(N)
 ---------- Approach - 1-----------
 class Solution {
 public:
