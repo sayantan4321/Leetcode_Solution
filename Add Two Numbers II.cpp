@@ -1,3 +1,5 @@
+// Approach: Reversing the LL's to start Addition from unit digit place
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
