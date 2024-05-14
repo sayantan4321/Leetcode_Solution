@@ -10,6 +10,8 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+// T.C. -> O(max(len1, len2))
+// S.C. -> O(max(len1, len2))
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
