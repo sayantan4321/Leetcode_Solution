@@ -1,4 +1,4 @@
-// Approach: Reversing the LL's to start Addition from unit digit place
+// Approach 1: Reversing the LL's to start Addition from unit digit place
            //  Also reverse the array at the time of Returning
 /**
  * Definition for singly-linked list.
