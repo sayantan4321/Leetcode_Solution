@@ -1,5 +1,5 @@
 // Approach: Reversing the LL's to start Addition from unit digit place
-
+           //  Also reverse the array at the time of Returning
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -10,6 +10,10 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+// ************** Use DummyNode ***********
+
+// T.C. -> O(max(len1, len2)) + O(N)
+// S.C. -> O(max(len1, len2))
 class Solution {
 public:
     ListNode* Reverse(ListNode* head){
