@@ -1,3 +1,4 @@
+--------- Approach -1 ---------
 class Solution {
 public:
     int findPermutationDifference(string s, string t) {
@@ -16,6 +17,11 @@ public:
 
     }
 };
+
+-------- Approach - 2 ---------
+
+// T.C. - O(N)
+// S.C. - O(N)
 class Solution {
 public:
     int findPermutationDifference(string s, string t) {
