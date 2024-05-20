@@ -1,3 +1,4 @@
+// Implementing all basic functions of Stack
 class MyStack {
     queue<int> q1;
     queue<int> q2;
