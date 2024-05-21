@@ -1,3 +1,4 @@
+// Brute Force
 class Solution {
 public:
     bool check(string &s, int i, int j){
