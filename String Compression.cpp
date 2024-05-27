@@ -1,5 +1,5 @@
 --------- Approach - 1 ------------
-  
+T.C. -> O(N)
 class Solution {
 public:
     int compress(vector<char>& chars) {
