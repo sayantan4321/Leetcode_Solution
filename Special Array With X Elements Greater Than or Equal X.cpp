@@ -1,4 +1,5 @@
 // Brute Force 
+
 class Solution {
 public:
     int findGreater(vector<int>& nums, int x){
