@@ -1,3 +1,10 @@
+/* 
+Approach - 1
+Using Set and rechare with substing  
+T.C. -> o(i) + o(word*i*i)
+S.C. -> O(N) 
+*/
+    
 class Solution {
 public:
     string findroot(string &word, unordered_set<string> &st){
