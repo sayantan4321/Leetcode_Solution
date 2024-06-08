@@ -27,7 +27,9 @@ public:
     }
 };
 
-// Approach -2
+// Approach - 2
+// T.C. -> O(N*logN)
+// S.C. -> O(1)  
 class Solution {
 public:
     bool findSuccessors(vector<int>& hand, int groupSize, int i, int n) {
