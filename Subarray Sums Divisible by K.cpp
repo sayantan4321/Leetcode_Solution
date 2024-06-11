@@ -1,11 +1,18 @@
-        // for(int i=0; i<n; i++){
-        //     int sum=0;
-        //     for(int j=i; j<n; j++){
-        //        sum+= nums[j];
-        //        if(sum%k==0) cnt++;
-        //     }
-        // }
-        // return cnt;
+class Solution {
+public:
+    int subarraysDivByK(vector<int>& nums, int k) {
+        for(int i=0; i<n; i++){
+            int sum=0;
+            for(int j=i; j<n; j++){
+               sum+= nums[j];
+               if(sum%k==0) cnt++;
+            }
+        }
+        return cnt;
+    }
+};
+
+//OPTIMAL
 class Solution {
 public:
     int subarraysDivByK(vector<int>& nums, int k) {
