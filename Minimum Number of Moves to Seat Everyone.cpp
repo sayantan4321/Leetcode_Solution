@@ -1,3 +1,5 @@
+// T.C. ->O(NlogN)
+// S.c. -> O(1)
 class Solution {
 public:
     int minMovesToSeat(vector<int>& seats, vector<int>& students) {
