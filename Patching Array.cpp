@@ -1,3 +1,7 @@
+// Approach --> OBSERVATION BASED
+// T.C. -> O(N)
+// S.C. -> O(1)
+
 class Solution {
 public:
     int minPatches(vector<int>& nums, int n) {
