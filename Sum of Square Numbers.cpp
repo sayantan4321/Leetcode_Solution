@@ -1,3 +1,5 @@
+// Approach - Binary Search
+
 #include<cmath>
 class Solution {
 public:
