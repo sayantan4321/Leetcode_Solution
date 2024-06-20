@@ -1,3 +1,4 @@
+// Using binary Search
 class Solution {
 public:
     bool isPerfectSquare(int num) {
