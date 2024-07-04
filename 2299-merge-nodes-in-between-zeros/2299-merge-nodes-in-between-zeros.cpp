@@ -11,7 +11,8 @@
 class Solution {
 public:
     ListNode* mergeNodes(ListNode* head) {
-      ListNode* temp = head->next; // Skip the first 0 node
+        ios::sync_with_stdio(false); 
+        ListNode* temp = head->next; // Skip the first 0 node
         ListNode* dummy = new ListNode(-1);
         ListNode* curr = dummy;
         int total = 0;
