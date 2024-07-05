@@ -1,3 +1,5 @@
+// One Pass Solution
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -8,6 +10,7 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
 class Solution {
 public:
     ListNode* mergeNodes(ListNode* head) {
