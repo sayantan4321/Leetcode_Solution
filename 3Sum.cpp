@@ -1,12 +1,11 @@
+// Optimal Approach
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
        if(nums.size() < 3){    //Base case 1
             return {};
         }
-        // if(nums[0] > 0){        //Base case 2
-        //     return {};
-        // } 
+        
        vector<vector<int>> ans;
        int n = nums.size();
        sort(nums.begin(), nums.end());
