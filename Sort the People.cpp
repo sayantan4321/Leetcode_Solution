@@ -31,7 +31,8 @@ public:
 };
 
 // Ussing Ordered Map (Approach -2)
-// S.C. O(N)
+// T.C. -> O(N)
+// S.C. -> O(N)
 class Solution {
 public:
     vector<string> sortPeople(vector<string>& names, vector<int>& heights) {
