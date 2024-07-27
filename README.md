@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [1333-sort-the-jumbled-numbers](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Recursion
 |  |
@@ -42,4 +43,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
+## Sorting
+|  |
+| ------- |
+| [1333-sort-the-jumbled-numbers](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1333-sort-the-jumbled-numbers) |
 <!---LeetCode Topics End-->
