@@ -1,3 +1,7 @@
+// Approach : Greedy(visiting every rowSum and colSum and take the min element as possible)
+
+// T.C. -> O(m+n)
+// S.C. -> O(1)
 class Solution { 
 public:
     vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {
@@ -8,7 +12,7 @@ public:
         int i=0; //row
         int j=0; //column
 
-        while(i < m && j < n){ // O(m+n)
+        while(i < m && j < n){ // 
             res[i][j] = min(rowSum[i], colSum[j]);
             rowSum[i] -= res[i][j];
             colSum[j] -= res[i][j];
