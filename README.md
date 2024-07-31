@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2187-vowels-of-all-substrings](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2187-vowels-of-all-substrings) |
 | [2645-pass-the-pillow](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2645-pass-the-pillow) |
+| [3515-find-if-digit-game-can-be-won](https://github.com/sayantan4321/Leetcode_Solution/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Simulation
 |  |
 | ------- |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1333-sort-the-jumbled-numbers](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [3515-find-if-digit-game-can-be-won](https://github.com/sayantan4321/Leetcode_Solution/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Recursion
 |  |
 | ------- |
