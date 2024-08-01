@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2187-vowels-of-all-substrings](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2187-vowels-of-all-substrings) |
+| [2727-number-of-senior-citizens](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2727-number-of-senior-citizens) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1333-sort-the-jumbled-numbers](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2727-number-of-senior-citizens](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2727-number-of-senior-citizens) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/sayantan4321/Leetcode_Solution/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Recursion
 |  |
