@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1333-sort-the-jumbled-numbers](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1333-sort-the-jumbled-numbers) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2727-number-of-senior-citizens](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2727-number-of-senior-citizens) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/sayantan4321/Leetcode_Solution/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Recursion
@@ -51,4 +52,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1333-sort-the-jumbled-numbers](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1333-sort-the-jumbled-numbers) |
+## Sliding Window
+|  |
+| ------- |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 <!---LeetCode Topics End-->
