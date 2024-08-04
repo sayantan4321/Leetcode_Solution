@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2187-vowels-of-all-substrings](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2187-vowels-of-all-substrings) |
 | [2645-pass-the-pillow](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2645-pass-the-pillow) |
+| [3511-find-the-winning-player-in-coin-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/3511-find-the-winning-player-in-coin-game) |
 | [3515-find-if-digit-game-can-be-won](https://github.com/sayantan4321/Leetcode_Solution/tree/master/3515-find-if-digit-game-can-be-won) |
 ## Simulation
 |  |
@@ -15,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2645-pass-the-pillow) |
+| [3511-find-the-winning-player-in-coin-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/3511-find-the-winning-player-in-coin-game) |
 ## String
 |  |
 | ------- |
@@ -62,4 +64,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+## Game Theory
+|  |
+| ------- |
+| [3511-find-the-winning-player-in-coin-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/3511-find-the-winning-player-in-coin-game) |
 <!---LeetCode Topics End-->
