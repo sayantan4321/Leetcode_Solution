@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0273-integer-to-english-words](https://github.com/sayantan4321/Leetcode_Solution/tree/master/0273-integer-to-english-words) |
 | [1642-water-bottles](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2187-vowels-of-all-substrings](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2187-vowels-of-all-substrings) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0273-integer-to-english-words](https://github.com/sayantan4321/Leetcode_Solution/tree/master/0273-integer-to-english-words) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2187-vowels-of-all-substrings](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2187-vowels-of-all-substrings) |
 | [2727-number-of-senior-citizens](https://github.com/sayantan4321/Leetcode_Solution/tree/master/2727-number-of-senior-citizens) |
@@ -45,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0273-integer-to-english-words](https://github.com/sayantan4321/Leetcode_Solution/tree/master/0273-integer-to-english-words) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/sayantan4321/Leetcode_Solution/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
